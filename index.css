@@ -1,0 +1,94 @@
+/* ESTILO DO MENU */
+
+body {
+    background-color: #ccc;
+}
+
+body h2 {
+    font-size: 25pt;
+    margin-bottom: 0px;
+}
+
+#menu {
+    margin-bottom: 1px;
+    text-align: center;
+}
+
+body nav a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+body h2 {
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    background-color: rgb(15, 113, 15);
+    padding: 10px 15px;
+    margin: 0 10px;
+    border-radius: 8px;
+}
+
+#menu ul li a:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #F9FAFA;
+    color: black;
+}
+
+
+/* ESTILO DO RODAPÉ */
+
+footer {
+    margin-bottom: 5px;
+}
+
+footer p {
+    text-align: center;
+    background-color: rgb(157, 206, 157, 0.4);
+    padding: 10px;
+    margin: 10px 50px;
+}
+
+footer img {
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+
+/* ABAIXO NAO ALTERAR - conteúdo da pag index.html */
+
+#contIndex {
+    background-color: rgba(241, 250, 248, 0.4);
+    padding: 20px;
+    border-radius: 3px;
+    width: 85%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 60px;
+    height: 300px;
+    margin: 0 40px;
+    text-align: justify;
+}
+
+#contIndex h3 {
+    text-align: center;
+}
+
+#contIndex img {
+    width: 350px;
+    border-radius: 3px;
+    margin: 10px;
+}
