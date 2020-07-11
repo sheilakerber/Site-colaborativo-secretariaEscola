@@ -1,0 +1,100 @@
+/* ESTILO DO MENU */
+
+body {
+    background-color: #ccc;
+}
+
+body h2 {
+    font-size: 25pt;
+    margin-bottom: 0px;
+}
+
+#menu {
+    margin-bottom: 1px;
+    text-align: center;
+    border-bottom: 20px solid rgb(157, 206, 157, 0.4);
+}
+
+body nav a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+body h2 {
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    background-color: rgb(15, 113, 15);
+    padding: 10px 15px;
+    margin: 0 10px;
+    border-radius: 8px;
+}
+
+#menu ul li a:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #F9FAFA;
+    color: black;
+}
+
+
+/* ESTILO DO RODAPÉ */
+
+footer {
+    margin-bottom: 5px;
+}
+
+footer p {
+    text-align: center;
+    background-color: rgb(157, 206, 157, 0.4);
+    padding: 10px;
+    margin: 10px 50px;
+}
+
+footer img {
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+body div {
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20pt;
+    border-radius: 8px;
+    margin: 10px 50px;
+    padding: 10px;
+}
+
+body div p {
+    font-weight: normal;
+}
+
+#email {
+    background-color: rgb(157, 206, 157);
+    width: 200px;
+    height: 40px;
+    padding: 5px 5px 5px 5px;
+    border-color: rgb(157, 206, 157);
+    border-radius: 5px;
+    color: black;
+}
+
+#email:hover {
+    background-color: rgb(15, 113, 15);
+    cursor: pointer;
+    border-bottom: 2px solid #F9FAFA;
+    color: white;
+}
