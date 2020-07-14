@@ -1,0 +1,19 @@
+body h3 {
+    font-size: 20pt;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+div {
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+
+table {
+    margin: 10px auto;
+    font-size: 18pt;
+}
+
+table th input {
+    width: 300px;
+}

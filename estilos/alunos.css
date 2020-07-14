@@ -1,0 +1,22 @@
+body h3 {
+    font-size: 20pt;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+div {
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+
+table {
+    margin: 10px auto;
+}
+
+table tr input {
+    height: 40px;
+    width: 230px;
+    border-radius: 3px;
+    border-style: none;
+    margin: 2px;
+}

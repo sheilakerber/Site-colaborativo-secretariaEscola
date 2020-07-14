@@ -1,0 +1,72 @@
+#caixaCadastro {
+    width: 100%;
+    color: black;
+    font-size: 20pt;
+    text-align: center;
+    margin: 30px 0;
+    font-weight: bold;
+}
+
+#caixaCadastro label {
+    color: black;
+    font-size: 20pt;
+    font-weight: normal;
+}
+
+#nomeAlunos {
+    margin-top: 20px;
+}
+
+#caixaCadastro input[type=text] {
+    width: 100%;
+}
+
+#nomeAlunos input[type=text] {
+    width: 40%;
+    height: 40px;
+    border-radius: 3px;
+    border-style: none;
+    margin: 2px;
+    background-color: white;
+    font-size: 14pt;
+}
+
+#caixaCadastro input {
+    margin: 20px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: white;
+    font-size: 14pt;
+    height: 40px;
+    border-radius: 3px;
+    border-style: none;
+    margin: 2px;
+}
+
+#nomeTurmaProfessor {
+    display: grid;
+    grid-column: 1fr;
+    margin: 0 450px;
+    margin-top: 50px;
+}
+
+#nomeTurmaProfessor input[type=text] {
+    text-align: center;
+}
+
+#caixaCadastro input[type=button] {
+    background-color: rgb(157, 206, 157);
+    width: 200px;
+    height: 40px;
+    padding: 5px 5px 5px 5px;
+    border-style: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#caixaCadastro input[type=button]:hover {
+    background-color: rgb(15, 113, 15);
+    cursor: pointer;
+    border-bottom: 2px solid #F9FAFA;
+    color: white;
+}

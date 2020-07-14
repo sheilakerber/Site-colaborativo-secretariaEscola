@@ -5,13 +5,17 @@ body {
 }
 
 body h2 {
-    font-size: 25pt;
+    font-size: 30pt;
     margin-bottom: 0px;
 }
 
 #menu {
     margin-bottom: 1px;
     text-align: center;
+}
+
+nav {
+    border-bottom: 20px solid rgb(157, 206, 157, 0.4);
 }
 
 body nav a {
@@ -21,6 +25,7 @@ body nav a {
 
 #menu a {
     text-decoration: none;
+    font-size: 22pt;
 }
 
 body h2 {
@@ -37,6 +42,8 @@ li {
     padding: 10px 15px;
     margin: 0 10px;
     border-radius: 8px;
+    height: 40px;
+    width: 150px;
 }
 
 #menu ul li a:hover {
@@ -46,10 +53,31 @@ li {
 }
 
 
+/* ESTILO TABELAS */
+
+table {
+    margin: 10px 10px;
+}
+
+table tr input {
+    height: 40px;
+    width: 200px;
+    border-radius: 3px;
+    border-style: none;
+    margin: 2px;
+}
+
+table th {
+    font-size: 20pt;
+}
+
+
 /* ESTILO DO RODAPÉ */
 
 footer {
-    margin-bottom: 5px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 footer p {
@@ -57,6 +85,8 @@ footer p {
     background-color: rgb(157, 206, 157, 0.4);
     padding: 10px;
     margin: 10px 50px;
+    font-size: 18pt;
+    font-weight: normal;
 }
 
 footer img {
@@ -65,30 +95,4 @@ footer img {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5px;
-}
-
-
-/* ABAIXO NAO ALTERAR - conteúdo da pag index.html */
-
-#contIndex {
-    background-color: rgba(241, 250, 248, 0.4);
-    padding: 20px;
-    border-radius: 3px;
-    width: 85%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 60px;
-    height: 300px;
-    margin: 0 40px;
-    text-align: justify;
-}
-
-#contIndex h3 {
-    text-align: center;
-}
-
-#contIndex img {
-    width: 350px;
-    border-radius: 3px;
-    margin: 10px;
 }
