@@ -1,88 +1,87 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="/estilos/geral.css">
-        <link rel="stylesheet" href="/estilos/alunos.css">
-    </head>
-    <body>
-        <h2>Escola Professor Marcos Bruno</h2>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./estilos/geral.css" />
+    <link rel="stylesheet" href="./estilos/alunos.css" />
+  </head>
+  <body>
+    <h2>Escola Professor Marcos Bruno</h2>
 
-        <nav id="menu">
-            <ul>
-                <li>
-                    <a class="active" href="index.html">Início</a>
-                </li>
-                <li>
-                    <a class="active" href="professores.html">Professores</a>
-                </li>
-                <li>
-                    <a href="alunos.html">Alunos</a>
-                </li>
-                <li>
-                    <a href="turmas.html">Turmas</a>
-                </li>
-                <li>
-                    <a href="contato.html">Contato</a>
-                </li>
-            </ul>
-        </nav>
+    <nav id="menu">
+      <ul>
+        <li>
+          <a class="active" href="index.html">Início</a>
+        </li>
+        <li>
+          <a class="active" href="professores.html">Professores</a>
+        </li>
+        <li>
+          <a href="alunos.html">Alunos</a>
+        </li>
+        <li>
+          <a href="turmas.html">Turmas</a>
+        </li>
+        <li>
+          <a href="contato.html">Contato</a>
+        </li>
+      </ul>
+    </nav>
 
-        <div id="alunosMatriculados">
-            <h3>Alunos matriculados</h3>
+    <div id="alunosMatriculados">
+      <h3>Alunos matriculados</h3>
 
-            <table>
-                <tr id="titulo">
-                    <th>Aluno(a)</th>
-                    <th>Turma</th>
-                    <th>Status de pagamento</th>
-                </tr>
+      <table>
+        <tr id="titulo">
+          <th>Aluno(a)</th>
+          <th>Turma</th>
+          <th>Status de pagamento</th>
+        </tr>
 
-                <tr>
+        <tr>
+          <td><input id="aluno1-nome" type="text" /><br /></td>
+          <td><input id="aluno1-turma" type="text" /><br /></td>
+          <td><input id="aluno1-status" type="text" /><br /></td>
+        </tr>
 
-                    <th><input type="text" for="nomeAlunos" readonly="readonly"><br></th>
-                    <th><input type="text" for="nomeAlunos" readonly="readonly"><br></th>
-                    <th><input type="text" for="nomeAlunos" readonly="readonly"><br></th>
+        <tr>
+          <td><input id="aluno2-nome" type="text" /><br /></td>
+          <td><input id="aluno2-turma" type="text" /><br /></td>
+          <td><input id="aluno2-status" type="text" /><br /></td>
+        </tr>
 
-                </tr>
+        <tr>
+          <td><input id="aluno3-nome" type="text" /><br /></td>
+          <td><input id="aluno3-turma" type="text" /><br /></td>
+          <td><input id="aluno3-status" type="text" /><br /></td>
+        </tr>
 
-                <tr>
-                    <th><input type="text" for="nomeAlunos" readonly="readonly"><br></th>
-                    <th><input type="text" for="nomeAlunos" readonly="readonly"><br></th>
-                    <th><input type="text" for="nomeAlunos" readonly="readonly"><br></th>
+        <tr>
+          <td><input id="aluno4-nome" type="text" /><br /></td>
+          <td><input id="aluno4-turma" type="text" /><br /></td>
+          <td><input id="aluno4-status" type="text" /><br /></td>
+        </tr>
 
-                </tr>
+        <tr>
+          <td><input id="aluno5-nome" type="text" /><br /></td>
+          <td><input id="aluno5-turma" type="text" /><br /></td>
+          <td><input id="aluno5-status" type="text" /><br /></td>
+        </tr>
+      </table>
+      <button id="btn-verificar" type="button" onclick="listarAlunos()">
+        Verificar
+      </button>
+    </div>
 
-                <tr>
-                    <th><input type="text" for="nomeAlunos" readonly="readonly"><br></th>
-                    <th><input type="text" for="nomeAlunos" readonly="readonly"><br></th>
-                    <th><input type="text" for="nomeAlunos" readonly="readonly"><br></th>
-
-                </tr>
-
-                <tr>
-                    <th><input type="text" for="nomeAlunos" readonly="readonly"><br></th>
-                    <th><input type="text" for="nomeAlunos" readonly="readonly"><br></th>
-                    <th><input type="text" for="nomeAlunos" readonly="readonly"><br></th>
-
-                </tr>
-
-                <tr>
-                    <th><input type="text" for="nomeAlunos" readonly="readonly"><br></th>
-                    <th><input type="text" for="nomeAlunos" readonly="readonly"><br></th>
-                    <th><input type="text" for="nomeAlunos" readonly="readonly"><br></th>
-
-                </tr>
-
-            </table>
-        </div>
-
-        <footer>
-            <p>Site desenvolvido em parceria com o Senai-SC</p>
-            <img src="https://logodownload.org/wp-content/uploads/2016/10/sesi-logo-12.png" alt="">
-        </footer>
-
-    </body>
+    <footer>
+      <p>Site desenvolvido em parceria com o Senai-SC</p>
+      <img
+        src="https://logodownload.org/wp-content/uploads/2016/10/sesi-logo-12.png"
+        alt=""
+      />
+    </footer>
+    <script src="./main.js"></script>
+  </body>
 </html>
